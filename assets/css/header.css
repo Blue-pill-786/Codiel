@@ -1,0 +1,36 @@
+#head {
+  display: flex;
+  flex-direction: row;
+  height: 50px;
+  flex-wrap: wrap;
+  align-content: center;
+  background-color: aqua; }
+  #head #ul {
+    position: absolute;
+    right: 15px; }
+
+#top {
+  background-color: aqua;
+  padding: 2px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  align-content: center;
+  position: absolute;
+  top: 30px;
+  width: 300px;
+  color: #4869B0;
+  justify-content: space-between;
+  position: absolute;
+  left: 40%;
+  width: 250px;
+  height: 120px;
+  border-radius: 40px 40px 30px 30px;
+  padding: 10px;
+  transition: all .5s ease-in-out; }
+
+#top:hover {
+  transform: scale(1);
+  width: 500px;
+  background-color: #238383;
+  box-shadow: inset -7px -7px 15px rgba(0, 0, 0, 0.5), inset 7px 7px 15px rgba(255, 255, 255, 0.5), inset 7px 7px 15px rgba(255, 255, 255, 0.5), inset -7px -7px 15px rgba(0, 0, 0, 0.5); }

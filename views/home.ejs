@@ -1,5 +1,17 @@
 
 
-        <h1>Codeial / <%= title %></h1>
+
+
+
+<% if (title === 'Home' && !locals.user ) { %>
+        <%- include('user_sign_up');%>
         
-       
+        <% } %>  
+        <% if (title === 'Home' && locals.user ) { %>
+              <div id="home">
+                      
+                      <h1> <%= title %></h1>
+                      <h1>HomePage</h1>
+                </div>
+                
+        <% } %>  

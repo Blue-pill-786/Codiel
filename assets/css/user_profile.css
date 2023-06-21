@@ -1,3 +1,16 @@
-body{
-    background-color: lightblue;
-}
+body {
+  background-color: lightblue; }
+
+#profile {
+  margin: auto;
+  top: 30%;
+  width: 50%;
+  background-color: cyan;
+  padding: 70px 0;
+  margin-top: 10%;
+  text-align: center; }
+
+#profile:hover {
+  transform: scale(1);
+  background-color: #238383;
+  box-shadow: inset -7px -7px 15px rgba(0, 0, 0, 0.5), inset 7px 7px 15px rgba(255, 255, 255, 0.5), inset 7px 7px 15px rgba(255, 255, 255, 0.5), inset -7px -7px 15px rgba(0, 0, 0, 0.5); }

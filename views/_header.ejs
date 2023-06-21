@@ -1,3 +1,39 @@
-<header>
-    Page Header
+<header id="head">
+    Codeial
+
+
+    <ul id="ul">
+        <% if (locals.user) {%>
+            
+                
+                <a href="/users/profile"><%= user.name%></a>
+            
+            <button>
+
+                <a href="/users/sign-out">Sign out</a>
+            </button>
+        
+        <%}else{%>
+            
+                <button>
+
+                    <a href="/users/sign-in">Sign in</a>
+                </button>
+            
+<button>
+
+    <a href="/users/sign-up">Sign up</a>
+</button>
+           
+            
+        <%}%>
+
+    </ul>
+   
 </header>
+<div id="top">
+    <a href="http://localhost:8000">Home</a>
+    <a href="http://localhost:8000/users/profile">Profile</a>
+    <a href="">Friends</a>
+    
+</div>
